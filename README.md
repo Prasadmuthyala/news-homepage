@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/Prasadmuthyala/news-homepage
 - Live Site URL: https://prasadmuthyala.github.io/news-homepage/
 
 ## My process
