@@ -1,0 +1,115 @@
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.desktop-img {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.nav-item:hover {
+  color: hsl(5, 85%, 63%);
+}
+.navstyle{
+  font-size: 1rem;
+  margin-left: 10rem;
+}
+.imgtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading1 {
+  color: hsl(240, 100%, 5%);
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.para1 {
+  color: hsl(233, 8%, 79%);
+  padding: 10px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(5, 85%, 63%);
+}
+
+.card {
+  padding: 10px;
+  background-color: hsl(240, 100%, 5%);
+}
+
+.card-title {
+  padding-top: 10px;
+  color: hsl(35, 77%, 62%);
+}
+
+.card-subtitle {
+  padding-top: 10px;
+  color: hsl(36, 100%, 99%);
+}
+
+.card-text {
+  padding-top: 5px;
+  color: hsl(233, 8%, 79%);
+}
+
+hr {
+  color: hsl(36, 100%, 99%);
+}
+
+.bottomimg {
+  padding-top: 20px;
+}
+
+.bottomcard {
+  border: 0px;
+  background-color: white;
+}
+
+.bottomtitle {
+  font-size: 2rem;
+  padding-top: 0;
+  color: hsl(236, 13%, 42%);
+  font-weight: bold;
+}
+
+.botomsubtitle {
+  font-weight: bold;
+  color: black;
+}
+
+.bottomtext {
+  color: hsl(233, 8%, 79%);
+}
+
+@media screen and (min-width:500px) {
+  .navbar-nav {
+    padding-left: 70%;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .desktop-img {
+    display: none;
+  }
+  .navstyle{
+    margin-left: 0;
+  }
+  .mobile-img {
+    display: inherit;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+  }
+}
